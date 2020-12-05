@@ -1,0 +1,31 @@
+#parallax-2 {
+   background: url(/assets/images/films.jpeg);
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-top: 10px solid turquoise;
+ }
+
+ .title1 {
+   color: white;
+   font-weight: 800;
+   font-size: 4rem;
+   font-family: 'Nunito Sans', sans-serif;
+   text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
+ }
+
+ #subnav {
+    height: 15px;
+    background-color:hsl(0, 0%, 14%) ;
+    a{
+       color:turquoise;
+    }
+    a:hover{
+       color: white;
+    }
+ }
+ 
+.container1 {
+   height: 500px;
+}
